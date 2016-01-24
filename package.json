@@ -1,0 +1,15 @@
+{
+  "name": "tobiasedwards.com",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Tobias Edwards",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}

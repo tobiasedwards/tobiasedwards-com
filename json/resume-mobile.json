@@ -1,0 +1,68 @@
+{
+  "name": "Tobias Edwards",
+  "email":
+    "tobias.w.edwards@gmail.com",
+  "education": [
+    {
+      "school":
+        "The University of Melbourne",
+      "degree":
+        "Bachelor of Science
+        (Chancellor's Scholarship)",
+      "majors": [
+        "Computing &
+        Information Systems",
+        "Pure Mathematics"
+      ],
+      "wam": 94.875,
+      "start": 2015,
+      "end": null
+    },
+    {
+      "school":
+        "Margaret River
+        Senior High School",
+      "awards": [
+        "Top Student in
+        Western Australia -
+        Mathematics: Specialist",
+        "Top Student in
+        Western Australia -
+        Computer Science",
+        "Top 0.5% in
+        Western Australia -
+        Physics"
+      ],
+      "atar": 99.90,
+      "start": 2010,
+      "end": 2014
+    }
+  ],
+  "experience": [
+    {
+      "company": "Freelancer.com",
+      "role":
+       "Software Engineering Intern",
+      "team":
+       "Software Infrastructure",
+      "description": [
+        "Maintainance of internal
+        tooling such as continuous
+        integration.",
+        "Optimizing web facing and
+        internal server
+        configurations.",
+        "Implementation of
+        linter rules to enforce
+        consistent style across
+        a large code base."
+      ],
+      "start":
+        {
+          "month": "Nov",
+          "year": 2015
+        },
+      "end": null
+    }
+  ]
+}

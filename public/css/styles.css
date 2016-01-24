@@ -1,0 +1,143 @@
+body {
+  background-color: #4A90E2;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 200;
+}
+
+.header {
+  margin: 40px auto 10px auto;
+  width: 550px;
+  height: 157px;
+}
+
+.header img {
+  float: left;
+  display: inline-block;
+  margin: 0 30px 0 10px;
+}
+
+.header .text {
+  float: left;
+  display: inline-block;
+  height: 157px;
+  color: #F1F1F1;
+}
+
+.header .text h1 {
+  font-weight: 600;
+  font-size: 36px;
+  margin: 20px auto 10px;
+}
+
+.header .text p {
+  margin: 4px 0;
+}
+
+.header .text a {
+  color: #F1F1F1;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header .text a:hover {
+  text-decoration: underline;
+}
+
+.terminal {
+  margin: 40px auto;
+  min-height: 400px;
+  width: 600px;
+}
+
+.terminal .menubar {
+  height: 26px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: #F2F2F2;
+  cursor: default;
+}
+
+.terminal .menubar .button {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  margin-left: -3px;
+  margin-right: 0px;
+  margin-top: 8px;
+  border-radius: 5px;
+  background-color: black;
+}
+
+.terminal .menubar .button.close {
+  margin-left: 8px;
+  background-color: #F05656;
+}
+
+.terminal .menubar .button.minimize {
+  background-color: #F7BE31;
+}
+
+.terminal .menubar .button.maximize {
+  background-color: #42D161;
+}
+
+.terminal .code-container {
+  display: block;
+  min-height: 384px;
+  padding: 12px 0;
+  width: inherit;
+  background-color: #393939;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.terminal .code-container pre {
+  margin: 0;
+  white-space: nowrap;
+}
+
+.terminal .code-container code {
+  color: #F1F1F1;
+  margin: 0 15px;
+  white-space: pre-wrap;
+  background-color: none;
+  font-family: 'Source Code Pro';
+  font-weight: 300;
+  font-size: 12px;
+}
+
+@media (max-width: 660px) {
+  .header {
+    width: 90%;
+    height: 300px;
+    text-align: center;
+  }
+
+  .header img {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .header .text {
+    float: none;
+    display: block;
+  }
+
+  .header .text h1 {
+    font-size: 32px;
+  }
+
+  .header .text a {
+    text-decoration: underline;
+  }
+
+  .terminal {
+    width: 95%;
+  }
+
+  .terminal .menubar,
+  .terminal .code-container {
+    width: 100%;
+  }
+}
