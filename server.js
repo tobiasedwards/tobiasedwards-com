@@ -1,6 +1,7 @@
 var express = require('express');
 var app = express();
 
+app.set('port', (process.env.PORT || 5000));
 app.use('/static', express.static('public'));
 
 var serveJSON = function (req, res) {
@@ -52,4 +53,6 @@ app.get('/', function (req, res) {
   }
 });
 
-app.listen(3000);
+app.listen(app.get('port'), function () {
+  console.log('tobiasedwards-com server running on port', app.get('port'));
+});
