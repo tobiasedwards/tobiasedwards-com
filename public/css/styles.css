@@ -2,6 +2,7 @@ body {
   background-color: #4A90E2;
   font-family: 'Source Code Pro', monospace;
   font-weight: 200;
+  -webkit-text-size-adjust: none;
 }
 
 .header {
