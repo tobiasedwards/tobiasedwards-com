@@ -6,32 +6,41 @@
     {
       "school":
         "The University of Melbourne",
-      "degree":
+      "degrees": [
         "Bachelor of Science
-        (Chancellor's Scholarship)",
+         (Chancellor's Scholarship)",
+        "Diploma of
+         Mathematical Sciences"
+      ],
       "majors": [
         "Computing &
-        Information Systems",
+         Information Systems",
         "Pure Mathematics"
       ],
-      "wam": 94.875,
+      "awards": [
+        "Dean's Honour List
+         (2015, 2016)",
+        "2nd Place in Computing
+         Faculty's CodeBrew Hackathon"
+      ],
+      "wam": 94.7,
       "start": 2015,
-      "end": null
+      "end": 2018,
     },
     {
       "school":
         "Margaret River
-        Senior High School",
+         Senior High School",
       "awards": [
         "Top Student in
-        Western Australia -
-        Mathematics: Specialist",
+         Western Australia
+         - Mathematics: Specialist",
         "Top Student in
-        Western Australia -
-        Computer Science",
+         Western Australia
+         - Computer Science",
         "Top 0.5% in
-        Western Australia -
-        Physics"
+         Western Australia
+         - Physics"
       ],
       "atar": 99.90,
       "start": 2010,
@@ -40,29 +49,79 @@
   ],
   "experience": [
     {
-      "company": "Freelancer.com",
+      "company": "Goldman Sachs",
       "role":
-       "Software Engineering Intern",
+        "Strategist & Trader Intern",
       "team":
-       "Software Infrastructure",
+        "Program Trading,
+         Securities Division",
       "description": [
-        "Maintainance of internal
-        tooling such as continuous
-        integration.",
-        "Optimizing web facing and
-        internal server
-        configurations.",
-        "Implementation of
-        linter rules to enforce
-        consistent style across
-        a large code base."
+        "Performed analysis regarding
+         Asian equity markets to help in
+         the development of trading
+         strategies, including a major
+         project focusing on flows in the
+         Japanese market.",
+        "Wrote software for various
+         automation tasks and long term
+         infrastructure projects.",
+        "Rotated through the Special
+         Situation Group, who deal with
+         complex principal investments
+         for the firm."
       ],
-      "start":
-        {
-          "month": "Nov",
-          "year": 2015
-        },
-      "end": null
+      "start": {
+        "month": "Nov", "year": 2016
+      },
+      "end": {
+        "month": "Feb", "year": 2017
+      }
+    },
+    {
+      "company":
+        "The University of Melbourne",
+      "role":
+        "Computing Faculty Tutor
+         & Demonstrator",
+      "description": [
+        "Ran workshops in Python as a
+         demonstrator teaching Foundations
+         of Computing.",
+        "Tutored Object Oriented Software
+         Development in Java which
+         involvedpreparing and running
+         tutorials as well as marking
+         assesment items."
+      ],
+      "start": {
+        "month": "Feb", "year": 2016
+      },
+      "end": {
+        "month": "Nov", "year": 2016
+      }
+    }
+    {
+      "company":
+        "Freelancer.com",
+      "role":
+        "Software Engineering Intern",
+      "team":
+        "Software Infrastructure",
+      "description": [
+        "Maintainance of internal tooling
+         such as continuous integration.",
+        "Optimizing web facing and internal
+         server configurations.",
+        "Implementation of linter rules to
+         enforce consistent style across
+         a large code base."
+      ],
+      "start": {
+        "month": "Nov", "year": 2015
+      },
+      "end": {
+        "month": "Feb", "year": 2016
+      }
     }
   ]
 }
