@@ -4,11 +4,18 @@
   "education": [
     {
       "school": "The University of Melbourne",
-      "degree": "Bachelor of Science (Chancellor's Scholarship)",
+      "degrees": [
+        "Bachelor of Science (Chancellor's Scholarship)",
+        "Diploma of Mathematical Sciences"
+      ],
       "majors": ["Computing & Information Systems", "Pure Mathematics"],
-      "wam": 94.875,
+      "awards": [
+        "Dean's Honour List (2015, 2016)",
+        "2nd Place in Computing Faculty's CodeBrew Hackathon"
+      ],
+      "wam": 94.7,
       "start": 2015,
-      "end": null
+      "end": 2018,
     },
     {
       "school": "Margaret River Senior High School",
@@ -24,6 +31,35 @@
   ],
   "experience": [
     {
+      "company": "Goldman Sachs",
+      "role": "Strategist & Trader Intern",
+      "team": "Program Trading, Securities Division",
+      "description": [
+        "Performed analysis regarding Asian equity markets to help in
+         the development of trading strategies, including a major project
+         focusing on flows in the Japanese market.",
+        "Wrote software for various automation tasks and long term
+         infrastructure projects.",
+        "Rotated through the Special Situation Group, who deal with
+         complex principal investments for the firm."
+      ],
+      "start": {"month": "Nov", "year": 2016},
+      "end": {"month": "Feb", "year": 2017}
+    },
+    {
+      "company": "The University of Melbourne",
+      "role": "Computing Faculty Tutor & Demonstrator",
+      "description": [
+        "Ran workshops in Python as a demonstrator teaching Foundations
+         of Computing.",
+        "Tutored Object Oriented Software Development in Java which
+         involvedpreparing and running tutorials as well as marking
+         assesment items."
+      ],
+      "start": {"month": "Feb", "year": 2016},
+      "end": {"month": "Nov", "year": 2016}
+    }
+    {
       "company": "Freelancer.com",
       "role": "Software Engineering Intern",
       "team": "Software Infrastructure",
@@ -34,7 +70,7 @@
         a large code base."
       ],
       "start": {"month": "Nov", "year": 2015},
-      "end": null
+      "end": {"month": "Feb", "year": 2016}
     }
   ]
 }
