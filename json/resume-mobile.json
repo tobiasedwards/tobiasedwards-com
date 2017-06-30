@@ -85,8 +85,8 @@
          & Demonstrator",
       "description": [
         "Ran workshops in Python as a
-         demonstrator teaching Foundations
-         of Computing.",
+         demonstrator teaching
+         Foundations of Computing.",
         "Tutored Object Oriented Software
          Development in Java which
          involvedpreparing and running
@@ -108,13 +108,15 @@
       "team":
         "Software Infrastructure",
       "description": [
-        "Maintainance of internal tooling
-         such as continuous integration.",
-        "Optimizing web facing and internal
-         server configurations.",
-        "Implementation of linter rules to
-         enforce consistent style across
-         a large code base."
+        "Maintainance of internal
+         tooling such as continuous
+         integration.",
+        "Optimizing web facing and
+         internal server
+         configurations.",
+        "Implementation of linter rules
+         to enforce consistent style
+         across a large code base."
       ],
       "start": {
         "month": "Nov", "year": 2015
